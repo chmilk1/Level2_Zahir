@@ -61,12 +61,11 @@ public class LevelBuilder {
             case ('-'):
                 return new SafeTile(row, colum, w, h);
             case ('S'):
-                return new SolidTile(row, colum, w, h);;
+                return new SolidTile(row, colum, w, h);
             case ('E'):
-                return new SafeTile(row, colum, w, h);;
-                break;
+                return new SafeTile(row, colum, w, h);
             case ('N'):
-                return new NextFloorTile(row, colum, w, h);;
+                return new NextFloorTile(row, colum, w, h);
             case ('R'):
                 return new RedTile(row, colum, w, h);
             case ('1'):
