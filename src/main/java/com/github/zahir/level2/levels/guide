@@ -10,3 +10,4 @@
 'D' : DoubleLCB
 ===================
 'P'x,y : Player
+'R'x,y,dir : RMTime
