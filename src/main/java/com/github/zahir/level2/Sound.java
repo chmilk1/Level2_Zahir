@@ -6,11 +6,11 @@ public class Sound {
 	
 	private Clip clip;
 
-	public static Sound gameSong = new Sound("Alla_Turka.wav");
-	public static Sound menuTrack = new Sound("Menu.wav");
-	public static Sound click = new Sound("Click.wav");
-	public static Sound death = new Sound("death.wav");
-	public static Sound end = new Sound("end.wav");
+	public static Sound gameSong = new Sound("/Alla_Turka.wav");
+	public static Sound menuTrack = new Sound("/Menu.wav");
+	public static Sound click = new Sound("/Click.wav");
+	public static Sound death = new Sound("/death.wav");
+	public static Sound end = new Sound("/end.wav");
 
 	public Sound (String fileName) {
 		try {

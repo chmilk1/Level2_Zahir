@@ -192,50 +192,50 @@ public GamePanel()
 	try 
 	{
 	
-		PlayerImg = ImageIO.read(this.getClass().getResourceAsStream("Player.png"));
-		PawnImg = ImageIO.read(this.getClass().getResourceAsStream("Pawn.png"));
-		NTImg = ImageIO.read(this.getClass().getResourceAsStream("NT.png"));
-		RTImg = ImageIO.read(this.getClass().getResourceAsStream("RT.png"));
-		GPImg = ImageIO.read(this.getClass().getResourceAsStream("GP.png"));
-		deathImg = ImageIO.read(this.getClass().getResourceAsStream("death.png"));
-		wtImg = ImageIO.read(this.getClass().getResourceAsStream("wt.png"));
-		ONETImg = ImageIO.read(this.getClass().getResourceAsStream("ONET.png"));
-		OFFETImg = ImageIO.read(this.getClass().getResourceAsStream("OFFET.png"));
-		ONRTImg = ImageIO.read(this.getClass().getResourceAsStream("ONRT.png"));
-		OFFRTImg = ImageIO.read(this.getClass().getResourceAsStream("OFFRT.png"));
-		BTImg = ImageIO.read(this.getClass().getResourceAsStream("BT.png"));
+		PlayerImg = ImageIO.read(this.getClass().getResourceAsStream("/Player.png"));
+		PawnImg = ImageIO.read(this.getClass().getResourceAsStream("/Pawn.png"));
+		NTImg = ImageIO.read(this.getClass().getResourceAsStream("/NT.png"));
+		RTImg = ImageIO.read(this.getClass().getResourceAsStream("/RT.png"));
+		GPImg = ImageIO.read(this.getClass().getResourceAsStream("/GP.png"));
+		deathImg = ImageIO.read(this.getClass().getResourceAsStream("/death.png"));
+		wtImg = ImageIO.read(this.getClass().getResourceAsStream("/wt.png"));
+		ONETImg = ImageIO.read(this.getClass().getResourceAsStream("/ONET.png"));
+		OFFETImg = ImageIO.read(this.getClass().getResourceAsStream("/OFFET.png"));
+		ONRTImg = ImageIO.read(this.getClass().getResourceAsStream("/ONRT.png"));
+		OFFRTImg = ImageIO.read(this.getClass().getResourceAsStream("/OFFRT.png"));
+		BTImg = ImageIO.read(this.getClass().getResourceAsStream("/BT.png"));
 		
-		RMUpImg = ImageIO.read(this.getClass().getResourceAsStream("RMUp.png"));
-		RMDownImg = ImageIO.read(this.getClass().getResourceAsStream("RMDown.png"));
-		RMRImg = ImageIO.read(this.getClass().getResourceAsStream("RMR.png"));
-		RMLImg = ImageIO.read(this.getClass().getResourceAsStream("RML.png"));
-		NFTImg = ImageIO.read(this.getClass().getResourceAsStream("NFT.png"));
-		CRImg = ImageIO.read(this.getClass().getResourceAsStream("CR.png"));
-		CLImg = ImageIO.read(this.getClass().getResourceAsStream("CL.png"));
-		DCRImg = ImageIO.read(this.getClass().getResourceAsStream("DCR.png"));
-		DCLImg = ImageIO.read(this.getClass().getResourceAsStream("DCL.png"));
+		RMUpImg = ImageIO.read(this.getClass().getResourceAsStream("/RMUp.png"));
+		RMDownImg = ImageIO.read(this.getClass().getResourceAsStream("/RMDown.png"));
+		RMRImg = ImageIO.read(this.getClass().getResourceAsStream("/RMR.png"));
+		RMLImg = ImageIO.read(this.getClass().getResourceAsStream("/RML.png"));
+		NFTImg = ImageIO.read(this.getClass().getResourceAsStream("/NFT.png"));
+		CRImg = ImageIO.read(this.getClass().getResourceAsStream("/CR.png"));
+		CLImg = ImageIO.read(this.getClass().getResourceAsStream("/CL.png"));
+		DCRImg = ImageIO.read(this.getClass().getResourceAsStream("/DCR.png"));
+		DCLImg = ImageIO.read(this.getClass().getResourceAsStream("/DCL.png"));
 		
-		DECROffImg = ImageIO.read(this.getClass().getResourceAsStream("DECROff.png"));
-		DECROnImg = ImageIO.read(this.getClass().getResourceAsStream("DECROn.png"));
-		DECLOffImg = ImageIO.read(this.getClass().getResourceAsStream("DECLOff.png"));
-		DECLOnImg = ImageIO.read(this.getClass().getResourceAsStream("DECLOn.png"));
+		DECROffImg = ImageIO.read(this.getClass().getResourceAsStream("/DECROff.png"));
+		DECROnImg = ImageIO.read(this.getClass().getResourceAsStream("/DECROn.png"));
+		DECLOffImg = ImageIO.read(this.getClass().getResourceAsStream("/DECLOff.png"));
+		DECLOnImg = ImageIO.read(this.getClass().getResourceAsStream("/DECLOn.png"));
 		
-		ECROffImg = ImageIO.read(this.getClass().getResourceAsStream("ECROff.png"));
-		ECROnImg = ImageIO.read(this.getClass().getResourceAsStream("ECROn.png"));
-		ECLOffImg = ImageIO.read(this.getClass().getResourceAsStream("ECLOff.png"));
-		ECLOnImg = ImageIO.read(this.getClass().getResourceAsStream("ECLOn.png"));
+		ECROffImg = ImageIO.read(this.getClass().getResourceAsStream("/ECROff.png"));
+		ECROnImg = ImageIO.read(this.getClass().getResourceAsStream("/ECROn.png"));
+		ECLOffImg = ImageIO.read(this.getClass().getResourceAsStream("/ECLOff.png"));
+		ECLOnImg = ImageIO.read(this.getClass().getResourceAsStream("/ECLOn.png"));
 		
-		DRECROffImg = ImageIO.read(this.getClass().getResourceAsStream("DRECROff.png"));
-		DRECROnImg = ImageIO.read(this.getClass().getResourceAsStream("DRECROn.png"));
-		DRECLOffImg = ImageIO.read(this.getClass().getResourceAsStream("DRECLOff.png"));
-		DRECLOnImg = ImageIO.read(this.getClass().getResourceAsStream("DRECLOn.png"));
+		DRECROffImg = ImageIO.read(this.getClass().getResourceAsStream("/DRECROff.png"));
+		DRECROnImg = ImageIO.read(this.getClass().getResourceAsStream("/DRECROn.png"));
+		DRECLOffImg = ImageIO.read(this.getClass().getResourceAsStream("/DRECLOff.png"));
+		DRECLOnImg = ImageIO.read(this.getClass().getResourceAsStream("/DRECLOn.png"));
 		
-		RECROffImg = ImageIO.read(this.getClass().getResourceAsStream("RECROff.png"));
-		RECROnImg = ImageIO.read(this.getClass().getResourceAsStream("RECROn.png"));
-		RECLOffImg = ImageIO.read(this.getClass().getResourceAsStream("RECLOff.png"));
-		RECLOnImg = ImageIO.read(this.getClass().getResourceAsStream("RECLOn.png"));
+		RECROffImg = ImageIO.read(this.getClass().getResourceAsStream("/RECROff.png"));
+		RECROnImg = ImageIO.read(this.getClass().getResourceAsStream("/RECROn.png"));
+		RECLOffImg = ImageIO.read(this.getClass().getResourceAsStream("/RECLOff.png"));
+		RECLOnImg = ImageIO.read(this.getClass().getResourceAsStream("/RECLOn.png"));
 
-		RookImg = ImageIO.read(this.getClass().getResourceAsStream("Rook.png"));
+		RookImg = ImageIO.read(this.getClass().getResourceAsStream("/Rook.png"));
 		
 		
 		
