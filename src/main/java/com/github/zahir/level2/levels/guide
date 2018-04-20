@@ -1,0 +1,13 @@
+'-' : Safe Tile
+'S' : Solid Tile
+'E' : End Tile
+'N' : Next Lvl Tile
+'R' : RedTile
+'1' : DECR
+'2' : DECL
+'3' : ECR
+'4' : ECL
+'D' : DoubleLCB
+===================
+'P'x,y : Player
+'R'x,y,dir : RMTime
