@@ -1,6 +1,6 @@
 package com.github.zahir.level2.levels;
 
-import org.junit.Test;
+//import org.junit.Test;
 
 import java.io.File;
 
@@ -8,7 +8,7 @@ import java.io.File;
  * Created by jamesmaron on 4/12/18.
  */
 class LevelBuilderTest {
-    @Test
+    //@Test
     void buildLevel() {
         try {
             LevelBuilder.buildLevel(new File("/level2"));

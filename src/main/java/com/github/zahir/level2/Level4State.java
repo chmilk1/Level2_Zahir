@@ -158,15 +158,15 @@ public Level4State()
 	try 
 	{
 	
-		PlayerImg = ImageIO.read(this.getClass().getResourceAsStream("Player.png"));
-		NTImg = ImageIO.read(this.getClass().getResourceAsStream("NT.png"));
-		RTImg = ImageIO.read(this.getClass().getResourceAsStream("RT.png"));
-		GPImg = ImageIO.read(this.getClass().getResourceAsStream("GP.png"));
-		deathImg = ImageIO.read(this.getClass().getResourceAsStream("death.png"));
-		wtImg = ImageIO.read(this.getClass().getResourceAsStream("wt.png"));
-		ONETImg = ImageIO.read(this.getClass().getResourceAsStream("ONET.png"));
-		OFFETImg = ImageIO.read(this.getClass().getResourceAsStream("OFFET.png"));
-		BTImg = ImageIO.read(this.getClass().getResourceAsStream("BT.png"));
+		PlayerImg = ImageIO.read(this.getClass().getResourceAsStream("/Player.png"));
+		NTImg = ImageIO.read(this.getClass().getResourceAsStream("/NT.png"));
+		RTImg = ImageIO.read(this.getClass().getResourceAsStream("/RT.png"));
+		GPImg = ImageIO.read(this.getClass().getResourceAsStream("/GP.png"));
+		deathImg = ImageIO.read(this.getClass().getResourceAsStream("/death.png"));
+		wtImg = ImageIO.read(this.getClass().getResourceAsStream("/wt.png"));
+		ONETImg = ImageIO.read(this.getClass().getResourceAsStream("/ONET.png"));
+		OFFETImg = ImageIO.read(this.getClass().getResourceAsStream("/OFFET.png"));
+		BTImg = ImageIO.read(this.getClass().getResourceAsStream("/BT.png"));
 		
 		
 	} 

@@ -36,7 +36,7 @@ public class FloorSelector extends JPanel implements KeyListener, ActionListener
 			// load select
 			try {
 				p = ImageIO.read(
-					getClass().getResourceAsStream("GP.png") 
+					getClass().getResourceAsStream("/GP.png")
 				).getSubimage(110, 130, 120, 110);
 			} catch (IOException e) {
 				
