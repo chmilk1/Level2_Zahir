@@ -1,7 +1,7 @@
 package com.github.zahir.level2.levels;
 
-import com.github.zahir.level2.GameRunner;
-import com.github.zahir.level2.tiles.*;
+import Game.GameRunner;
+import Game.tiles.*;
 
 import java.io.BufferedReader;
 import java.io.File;
