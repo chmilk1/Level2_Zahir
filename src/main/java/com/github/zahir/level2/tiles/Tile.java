@@ -12,8 +12,7 @@ public abstract class Tile extends GameObject {
         super(x, y, w, h);
     }
 
-    public void update()
-    {
+    public void update() {
         colBox.setBounds(getX(), getY(), getWidth(), getHeight());
     }
 
