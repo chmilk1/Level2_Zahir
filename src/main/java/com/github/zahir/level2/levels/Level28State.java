@@ -165,13 +165,14 @@ public class Level28State extends Level {
     Pawn e1 = new Pawn(tileSideLength * 8, tileSideLength * 4, tileSideLength, tileSideLength);
     Pawn e2 = new Pawn(tileSideLength * 5, tileSideLength * 12, tileSideLength, tileSideLength);
 
+    private ObjectManager manager = new ObjectManager();
 
     public Level28State() {
         super();
 
         widthInTiles = 11;
         heightInTiles = 13;
-        tileSideLength = GameRunner.WINDOW_HEIGHT/ heightInTiles;
+        tileSideLength = GameRunner.WINDOW_HEIGHT / heightInTiles;
 
         finalTile = t31;
 
@@ -327,6 +328,9 @@ public class Level28State extends Level {
 
     }
 
+    public ObjectManager getManager() {
+        return manager;
+    }
 
     public void updateLevel() {
 
