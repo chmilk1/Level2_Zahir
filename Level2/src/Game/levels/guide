@@ -1,13 +1,11 @@
 '-' : Safe Tile
 'S' : Solid Tile
-'E' : End Tile
+'E' : Electric Tile(State -1)
+'e' : Electric Tile(State 1)
 'N' : Next Lvl Tile
 'R' : RedTile
-'1' : DECR
-'2' : DECL
-'3' : ECR
-'4' : ECL
 'D' : DoubleLCB
 ===================
 'P'x,y : Player
-'R'x,y,dir : RMTime
+'R'x,y,dir : RMTile
+'r'x,y,dir : RMTile2
