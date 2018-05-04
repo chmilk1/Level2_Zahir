@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class FloorSelector extends JPanel implements KeyListener, ActionListener {
     //TODO: remove debug feture
-    public boolean debug = false;
+    public boolean debug = true;
     public static int floor = 1;
     public static int currentChoice = 0;
     Timer timer;
@@ -32,7 +32,7 @@ public class FloorSelector extends JPanel implements KeyListener, ActionListener
 
     public FloorSelector() {
         if(debug){
-            floor = 3;
+            floor = 2;
         }
         timer = new Timer(1000 / 60, this);
 

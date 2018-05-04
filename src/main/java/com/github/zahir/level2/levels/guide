@@ -3,9 +3,11 @@
 'E' : Electric Tile(State -1)
 'e' : Electric Tile(State 1)
 'N' : Next Lvl Tile
+'F' : Next Floor Time
 'R' : RedTile
 'D' : DoubleLCB
 ===================
-'P'x,y : Player
-'R'x,y,dir : RMTile
-'r'x,y,dir : RMTile2
+'P' x,y : Player
+'R' x,y,dir : RMTile
+'r' x,y,dir : RMTile2
+'p' x,y : pawn
