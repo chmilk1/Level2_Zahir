@@ -32,6 +32,7 @@ public class Level12State extends JPanel implements ActionListener, KeyListener 
     public static BufferedImage OFFETImg;
     public static BufferedImage BTImg;
     long currTime, totalTime;
+
     Timer timer;
     ObjectManager manager = new ObjectManager();
     Player player = new Player(tw * 2, th * 2, tw, th);
@@ -300,7 +301,6 @@ public class Level12State extends JPanel implements ActionListener, KeyListener 
         winChecker();
         boundChecker();
 
-
         if (player.isAlive == false) {
             gp.setX(tw * 2);
             gp.setY(th * 2);
@@ -310,9 +310,7 @@ public class Level12State extends JPanel implements ActionListener, KeyListener 
 
             manager.resetElectric();
             player.isAlive = true;
-
         }
-
 
     }
 
@@ -348,12 +346,12 @@ public class Level12State extends JPanel implements ActionListener, KeyListener 
                 manager.reset();
                 timer.stop();
                 Sound.menuTrack.loop();
-                GameRunner.getFrame().add(GameRunner.m);
+                GameRunner.getFrame().add(GameRunner.menuState);
                 GameRunner.getFrame().setSize(GameRunner.WINDOW_WIDTH, GameRunner.WINDOW_HEIGHT);
                 GameRunner.getFrame().setVisible(true);
                 GameRunner.getFrame().setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                GameRunner.getFrame().addKeyListener(GameRunner.m);
-                GameRunner.m.startGame();
+                GameRunner.getFrame().addKeyListener(GameRunner.menuState);
+                GameRunner.menuState.startGame();
 
             }
 

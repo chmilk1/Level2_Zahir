@@ -94,7 +94,7 @@ public class MenuState extends JPanel implements KeyListener, ActionListener {
             timer.stop();
             menuSelect = false;
             Sound.click.play();
-            GameRunner.getFrame().remove(GameRunner.m);
+            GameRunner.getFrame().remove(GameRunner.menuState);
             GameRunner.getFrame().add(GameRunner.f);
             GameRunner.getFrame().setSize(GameRunner.WINDOW_WIDTH, GameRunner.WINDOW_HEIGHT);
             GameRunner.getFrame().setVisible(true);

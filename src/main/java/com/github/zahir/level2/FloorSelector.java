@@ -11,6 +11,8 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 public class FloorSelector extends JPanel implements KeyListener, ActionListener {
+    //TODO: remove debug feture
+    public boolean debug = false;
     public static int floor = 1;
     public static int currentChoice = 0;
     Timer timer;
@@ -29,6 +31,9 @@ public class FloorSelector extends JPanel implements KeyListener, ActionListener
     private Font font2;
 
     public FloorSelector() {
+        if(debug){
+            floor = 3;
+        }
         timer = new Timer(1000 / 60, this);
 
 

@@ -248,12 +248,12 @@ public class Level19State extends JPanel implements ActionListener, KeyListener 
                 manager.reset();
                 timer.stop();
                 Sound.menuTrack.loop();
-                GameRunner.getFrame().add(GameRunner.m);
+                GameRunner.getFrame().add(GameRunner.menuState);
                 GameRunner.getFrame().setSize(GameRunner.WINDOW_WIDTH, GameRunner.WINDOW_HEIGHT);
                 GameRunner.getFrame().setVisible(true);
                 GameRunner.getFrame().setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                GameRunner.getFrame().addKeyListener(GameRunner.m);
-                GameRunner.m.startGame();
+                GameRunner.getFrame().addKeyListener(GameRunner.menuState);
+                GameRunner.menuState.startGame();
 
             }
 

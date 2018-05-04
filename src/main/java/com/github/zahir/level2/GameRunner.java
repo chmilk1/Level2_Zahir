@@ -9,7 +9,7 @@ public class GameRunner extends JFrame {
 
     public final static int WINDOW_WIDTH = 1500;
     public final static int WINDOW_HEIGHT = 750;
-    static MenuState m = new MenuState();
+    static MenuState menuState = new MenuState();
     static FloorSelector f = new FloorSelector();
     static GamePanel lv1 = new GamePanel();
     static Level2State lv2 = new Level2State();
@@ -139,12 +139,12 @@ public class GameRunner extends JFrame {
     public void setup() {
         Sound.menuTrack.loop();
 
-        GameRunner.getFrame().add(m);
+        GameRunner.getFrame().add(menuState);
         GameRunner.getFrame().setSize(GameRunner.WINDOW_WIDTH, GameRunner.WINDOW_HEIGHT);
         GameRunner.getFrame().setVisible(true);
         getFrame().setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        GameRunner.getFrame().addKeyListener(GameRunner.m);
-        GameRunner.m.startGame();
+        GameRunner.getFrame().addKeyListener(GameRunner.menuState);
+        GameRunner.menuState.startGame();
 
 
     }
